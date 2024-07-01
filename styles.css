@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     padding: 0;
@@ -85,30 +88,107 @@ ul{
 
 .info{
     text-align: center;
+    padding: 60px;
     }
 
 .info-header{
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .img-container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 52px;
+    gap: 150px;
 }
 
 .img-info{
     max-width: 400px;
 }
 
-.img-info div{
+.img-text{
     margin-top: 10px;
     font-size: 18px;
-    
+    max-width: 200px;
 }
 
+.quote{
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+    max-width: 800px;
+    align-self: center;
+}
+
+.thor{
+    align-self: flex-end;
+    margin-right: 410px;
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+
+}
+
+.end-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background-color: #3882F6;
+    padding: 40px 90px 40px;
+    border-radius: 8px;
+}
+
+.call{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.call-2{
+    font-size: 18px;
+    color:#F9FAF8;
+    font-weight: 300;
+}
+
+.end-2 button{
+    background-color: inherit;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-radius: 8px;
+    border: solid 2px;
+    min-width: 90px;
+    min-height: 25px;
+    font-size: 14px;
+}
+
+.footer{
+    background-color: #1F2937;
+    padding: 25px;
+    text-align: center;
+}
+
+.footer div{
+    font-size: 18px;
+    color: #E5E7EB;
+}
